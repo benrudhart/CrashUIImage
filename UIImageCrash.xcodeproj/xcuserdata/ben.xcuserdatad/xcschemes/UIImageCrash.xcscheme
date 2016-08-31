@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B57FC7C51D76FB1B00F7BEBB"
+               BuildableName = "UIImageCrash.app"
+               BlueprintName = "UIImageCrash"
+               ReferencedContainer = "container:UIImageCrash.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B57FC7D91D76FB1B00F7BEBB"
+               BuildableName = "UIImageCrashTests.xctest"
+               BlueprintName = "UIImageCrashTests"
+               ReferencedContainer = "container:UIImageCrash.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B57FC7E41D76FB1B00F7BEBB"
+               BuildableName = "UIImageCrashUITests.xctest"
+               BlueprintName = "UIImageCrashUITests"
+               ReferencedContainer = "container:UIImageCrash.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B57FC7C51D76FB1B00F7BEBB"
+            BuildableName = "UIImageCrash.app"
+            BlueprintName = "UIImageCrash"
+            ReferencedContainer = "container:UIImageCrash.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -24,8 +69,19 @@
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
+      enableAddressSanitizer = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B57FC7C51D76FB1B00F7BEBB"
+            BuildableName = "UIImageCrash.app"
+            BlueprintName = "UIImageCrash"
+            ReferencedContainer = "container:UIImageCrash.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +91,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B57FC7C51D76FB1B00F7BEBB"
+            BuildableName = "UIImageCrash.app"
+            BlueprintName = "UIImageCrash"
+            ReferencedContainer = "container:UIImageCrash.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
